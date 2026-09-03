@@ -1,9 +1,24 @@
+"""FIFA World Cup 2026 Management System — a runnable demonstration.
+
+Builds one player of each position, plays a short simulated match and prints
+the squad and every per-position report, so the inheritance hierarchy
+(Person -> Player -> Goalkeeper/Defender/Midfielder/Forward) can be seen in
+action from a single run.
+"""
+
+import sys
 
 from core.goalkeeper import Goalkeeper
 from core.defender import Defender
 from core.midfielder import Midfielder
 from core.forward import Forward
 from core.team import Team
+
+# The reports use emoji (⚽, 🧤, ...). A Windows console defaults to the cp1252
+# code page, which cannot encode them and would crash mid-match — so ask stdout
+# for UTF-8 wherever the runtime supports it.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 
 def main():
@@ -88,11 +103,14 @@ def main():
         country="France",
         fifa_ranking=2,
         formation="4-3-3",
-       
     )
 
- 
-   
+    # Register the squad and appoint the leadership.
+    for player in (lloris, saliba, camavinga, mbappe):
+        france.add_player(player)
+    france.set_captain(mbappe)
+    france.set_vice_captain(lloris)
+
     # ==========================
     # Match Simulation
     # ==========================
