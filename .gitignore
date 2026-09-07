@@ -22,3 +22,6 @@ Thumbs.db
 # Stray tool artefacts
 system-commandline-sentinel-files/
 *.log
+
+# World Cup engine: the default saved-tournament file (created by `run`, `draw`, ...)
+tournament.json

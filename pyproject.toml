@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "worldcup"
+description = "Real FIFA World Cup 2026 simulation & prediction engine (offline, Elo-based). All simulated results are predictions, not facts."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Hussain Ahmed Humaidi" }]
+keywords = ["world-cup", "football", "soccer", "elo", "simulation", "monte-carlo"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Games/Entertainment :: Simulation",
+    "Intended Audience :: End Users/Desktop",
+]
+# The engine uses only the standard library: nothing to install to run it.
+dependencies = []
+dynamic = ["version"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+worldcup = "worldcup.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/humaidi09/World-Cup-2026"
+Source = "https://github.com/humaidi09/World-Cup-2026"
+
+# The distributable engine is the `worldcup` package. `core/` is the separate
+# teaching OOP demo, run from a source checkout via `python main.py`.
+[tool.setuptools]
+packages = ["worldcup"]
+
+[tool.setuptools.dynamic]
+version = { attr = "worldcup.__version__" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

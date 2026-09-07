@@ -32,5 +32,11 @@ jobs:
       - name: Run the unit tests
         run: python -m pytest -q
 
-      - name: Run the demo end to end
+      - name: Smoke-test the prediction engine
+        run: |
+          python -m worldcup teams
+          python -m worldcup run --seed 1 --real-hosts
+          python -m worldcup predict --sims 50 --seed 1
+
+      - name: Run the OOP demo end to end
         run: python main.py
