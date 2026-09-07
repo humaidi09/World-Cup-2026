@@ -1,0 +1,1358 @@
+{
+  "version": "1.0.0",
+  "kind": "prediction",
+  "provenance": {
+    "description": "Real 2026 FIFA World Cup teams with real published World Football Elo ratings.",
+    "elo_source": "https://www.eloratings.net/ (World Football Elo Ratings)",
+    "elo_as_of": "2026-07-19",
+    "elo_note": "Ratings are a dated snapshot for reproducible simulation, not live values. Refresh with tools/update_elo.py.",
+    "format_source": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "teams_note": "48 qualified teams incl. the six March 2026 play-off winners (Bosnia, Sweden, Turkey, Czech Republic, DR Congo, Iraq)."
+  },
+  "teams": [
+    {
+      "code": "USA",
+      "name": "United States",
+      "confederation": "CONCACAF",
+      "pot": 1,
+      "host": true,
+      "elo": 1746.0
+    },
+    {
+      "code": "MEX",
+      "name": "Mexico",
+      "confederation": "CONCACAF",
+      "pot": 1,
+      "host": true,
+      "elo": 1913.0
+    },
+    {
+      "code": "CAN",
+      "name": "Canada",
+      "confederation": "CONCACAF",
+      "pot": 1,
+      "host": true,
+      "elo": 1729.0
+    },
+    {
+      "code": "ESP",
+      "name": "Spain",
+      "confederation": "UEFA",
+      "pot": 1,
+      "host": false,
+      "elo": 2259.0
+    },
+    {
+      "code": "ARG",
+      "name": "Argentina",
+      "confederation": "CONMEBOL",
+      "pot": 1,
+      "host": false,
+      "elo": 2173.0
+    },
+    {
+      "code": "FRA",
+      "name": "France",
+      "confederation": "UEFA",
+      "pot": 1,
+      "host": false,
+      "elo": 2070.0
+    },
+    {
+      "code": "ENG",
+      "name": "England",
+      "confederation": "UEFA",
+      "pot": 1,
+      "host": false,
+      "elo": 2125.0
+    },
+    {
+      "code": "BRA",
+      "name": "Brazil",
+      "confederation": "CONMEBOL",
+      "pot": 1,
+      "host": false,
+      "elo": 1993.0
+    },
+    {
+      "code": "POR",
+      "name": "Portugal",
+      "confederation": "UEFA",
+      "pot": 1,
+      "host": false,
+      "elo": 1995.0
+    },
+    {
+      "code": "NED",
+      "name": "Netherlands",
+      "confederation": "UEFA",
+      "pot": 1,
+      "host": false,
+      "elo": 1971.0
+    },
+    {
+      "code": "BEL",
+      "name": "Belgium",
+      "confederation": "UEFA",
+      "pot": 1,
+      "host": false,
+      "elo": 1947.0
+    },
+    {
+      "code": "GER",
+      "name": "Germany",
+      "confederation": "UEFA",
+      "pot": 1,
+      "host": false,
+      "elo": 1907.0
+    },
+    {
+      "code": "CRO",
+      "name": "Croatia",
+      "confederation": "UEFA",
+      "pot": 2,
+      "host": false,
+      "elo": 1881.0
+    },
+    {
+      "code": "MAR",
+      "name": "Morocco",
+      "confederation": "CAF",
+      "pot": 2,
+      "host": false,
+      "elo": 1901.0
+    },
+    {
+      "code": "COL",
+      "name": "Colombia",
+      "confederation": "CONMEBOL",
+      "pot": 2,
+      "host": false,
+      "elo": 2003.0
+    },
+    {
+      "code": "URU",
+      "name": "Uruguay",
+      "confederation": "CONMEBOL",
+      "pot": 2,
+      "host": false,
+      "elo": 1841.0
+    },
+    {
+      "code": "SUI",
+      "name": "Switzerland",
+      "confederation": "UEFA",
+      "pot": 2,
+      "host": false,
+      "elo": 1928.0
+    },
+    {
+      "code": "JPN",
+      "name": "Japan",
+      "confederation": "AFC",
+      "pot": 2,
+      "host": false,
+      "elo": 1888.0
+    },
+    {
+      "code": "SEN",
+      "name": "Senegal",
+      "confederation": "CAF",
+      "pot": 2,
+      "host": false,
+      "elo": 1816.0
+    },
+    {
+      "code": "IRN",
+      "name": "Iran",
+      "confederation": "AFC",
+      "pot": 2,
+      "host": false,
+      "elo": 1764.0
+    },
+    {
+      "code": "KOR",
+      "name": "South Korea",
+      "confederation": "AFC",
+      "pot": 2,
+      "host": false,
+      "elo": 1723.0
+    },
+    {
+      "code": "ECU",
+      "name": "Ecuador",
+      "confederation": "CONMEBOL",
+      "pot": 2,
+      "host": false,
+      "elo": 1871.0
+    },
+    {
+      "code": "AUT",
+      "name": "Austria",
+      "confederation": "UEFA",
+      "pot": 2,
+      "host": false,
+      "elo": 1821.0
+    },
+    {
+      "code": "AUS",
+      "name": "Australia",
+      "confederation": "AFC",
+      "pot": 2,
+      "host": false,
+      "elo": 1795.0
+    },
+    {
+      "code": "NOR",
+      "name": "Norway",
+      "confederation": "UEFA",
+      "pot": 3,
+      "host": false,
+      "elo": 1952.0
+    },
+    {
+      "code": "PAN",
+      "name": "Panama",
+      "confederation": "CONCACAF",
+      "pot": 3,
+      "host": false,
+      "elo": 1658.0
+    },
+    {
+      "code": "EGY",
+      "name": "Egypt",
+      "confederation": "CAF",
+      "pot": 3,
+      "host": false,
+      "elo": 1742.0
+    },
+    {
+      "code": "ALG",
+      "name": "Algeria",
+      "confederation": "CAF",
+      "pot": 3,
+      "host": false,
+      "elo": 1756.0
+    },
+    {
+      "code": "SCO",
+      "name": "Scotland",
+      "confederation": "UEFA",
+      "pot": 3,
+      "host": false,
+      "elo": 1746.0
+    },
+    {
+      "code": "PAR",
+      "name": "Paraguay",
+      "confederation": "CONMEBOL",
+      "pot": 3,
+      "host": false,
+      "elo": 1814.0
+    },
+    {
+      "code": "TUN",
+      "name": "Tunisia",
+      "confederation": "CAF",
+      "pot": 3,
+      "host": false,
+      "elo": 1562.0
+    },
+    {
+      "code": "CIV",
+      "name": "Ivory Coast",
+      "confederation": "CAF",
+      "pot": 3,
+      "host": false,
+      "elo": 1728.0
+    },
+    {
+      "code": "UZB",
+      "name": "Uzbekistan",
+      "confederation": "AFC",
+      "pot": 3,
+      "host": false,
+      "elo": 1630.0
+    },
+    {
+      "code": "QAT",
+      "name": "Qatar",
+      "confederation": "AFC",
+      "pot": 3,
+      "host": false,
+      "elo": 1411.0
+    },
+    {
+      "code": "KSA",
+      "name": "Saudi Arabia",
+      "confederation": "AFC",
+      "pot": 3,
+      "host": false,
+      "elo": 1596.0
+    },
+    {
+      "code": "RSA",
+      "name": "South Africa",
+      "confederation": "CAF",
+      "pot": 3,
+      "host": false,
+      "elo": 1560.0
+    },
+    {
+      "code": "JOR",
+      "name": "Jordan",
+      "confederation": "AFC",
+      "pot": 4,
+      "host": false,
+      "elo": 1628.0
+    },
+    {
+      "code": "CPV",
+      "name": "Cape Verde",
+      "confederation": "CAF",
+      "pot": 4,
+      "host": false,
+      "elo": 1619.0
+    },
+    {
+      "code": "GHA",
+      "name": "Ghana",
+      "confederation": "CAF",
+      "pot": 4,
+      "host": false,
+      "elo": 1571.0
+    },
+    {
+      "code": "CUW",
+      "name": "Curacao",
+      "confederation": "CONCACAF",
+      "pot": 4,
+      "host": false,
+      "elo": 1438.0
+    },
+    {
+      "code": "HAI",
+      "name": "Haiti",
+      "confederation": "CONCACAF",
+      "pot": 4,
+      "host": false,
+      "elo": 1517.0
+    },
+    {
+      "code": "NZL",
+      "name": "New Zealand",
+      "confederation": "OFC",
+      "pot": 4,
+      "host": false,
+      "elo": 1534.0
+    },
+    {
+      "code": "BIH",
+      "name": "Bosnia and Herzegovina",
+      "confederation": "UEFA",
+      "pot": 4,
+      "host": false,
+      "elo": 1605.0
+    },
+    {
+      "code": "SWE",
+      "name": "Sweden",
+      "confederation": "UEFA",
+      "pot": 4,
+      "host": false,
+      "elo": 1731.0
+    },
+    {
+      "code": "TUR",
+      "name": "Turkey",
+      "confederation": "UEFA",
+      "pot": 4,
+      "host": false,
+      "elo": 1852.0
+    },
+    {
+      "code": "CZE",
+      "name": "Czech Republic",
+      "confederation": "UEFA",
+      "pot": 4,
+      "host": false,
+      "elo": 1680.0
+    },
+    {
+      "code": "COD",
+      "name": "DR Congo",
+      "confederation": "CAF",
+      "pot": 4,
+      "host": false,
+      "elo": 1704.0
+    },
+    {
+      "code": "IRQ",
+      "name": "Iraq",
+      "confederation": "AFC",
+      "pot": 4,
+      "host": false,
+      "elo": 1561.0
+    }
+  ],
+  "groups": {
+    "A": [
+      "MEX",
+      "KOR",
+      "SCO",
+      "BIH"
+    ],
+    "B": [
+      "CAN",
+      "AUS",
+      "CIV",
+      "NZL"
+    ],
+    "C": [
+      "BRA",
+      "SUI",
+      "EGY",
+      "JOR"
+    ],
+    "D": [
+      "USA",
+      "MAR",
+      "UZB",
+      "CZE"
+    ],
+    "E": [
+      "GER",
+      "COL",
+      "TUN",
+      "HAI"
+    ],
+    "F": [
+      "POR",
+      "URU",
+      "PAN",
+      "IRQ"
+    ],
+    "G": [
+      "FRA",
+      "JPN",
+      "RSA",
+      "SWE"
+    ],
+    "H": [
+      "ENG",
+      "AUT",
+      "ALG",
+      "CUW"
+    ],
+    "I": [
+      "ESP",
+      "ECU",
+      "QAT",
+      "CPV"
+    ],
+    "J": [
+      "BEL",
+      "SEN",
+      "KSA",
+      "TUR"
+    ],
+    "K": [
+      "ARG",
+      "CRO",
+      "NOR",
+      "GHA"
+    ],
+    "L": [
+      "NED",
+      "IRN",
+      "PAR",
+      "COD"
+    ]
+  },
+  "results": [
+    {
+      "a": "MEX",
+      "b": "KOR",
+      "goals_a": 3,
+      "goals_b": 2,
+      "group": "A"
+    },
+    {
+      "a": "MEX",
+      "b": "SCO",
+      "goals_a": 5,
+      "goals_b": 1,
+      "group": "A"
+    },
+    {
+      "a": "MEX",
+      "b": "BIH",
+      "goals_a": 4,
+      "goals_b": 1,
+      "group": "A"
+    },
+    {
+      "a": "KOR",
+      "b": "SCO",
+      "goals_a": 2,
+      "goals_b": 3,
+      "group": "A"
+    },
+    {
+      "a": "KOR",
+      "b": "BIH",
+      "goals_a": 0,
+      "goals_b": 1,
+      "group": "A"
+    },
+    {
+      "a": "SCO",
+      "b": "BIH",
+      "goals_a": 0,
+      "goals_b": 1,
+      "group": "A"
+    },
+    {
+      "a": "CAN",
+      "b": "AUS",
+      "goals_a": 2,
+      "goals_b": 3,
+      "group": "B"
+    },
+    {
+      "a": "CAN",
+      "b": "CIV",
+      "goals_a": 0,
+      "goals_b": 0,
+      "group": "B"
+    },
+    {
+      "a": "CAN",
+      "b": "NZL",
+      "goals_a": 0,
+      "goals_b": 0,
+      "group": "B"
+    },
+    {
+      "a": "AUS",
+      "b": "CIV",
+      "goals_a": 2,
+      "goals_b": 1,
+      "group": "B"
+    },
+    {
+      "a": "AUS",
+      "b": "NZL",
+      "goals_a": 3,
+      "goals_b": 1,
+      "group": "B"
+    },
+    {
+      "a": "CIV",
+      "b": "NZL",
+      "goals_a": 4,
+      "goals_b": 1,
+      "group": "B"
+    },
+    {
+      "a": "BRA",
+      "b": "SUI",
+      "goals_a": 2,
+      "goals_b": 2,
+      "group": "C"
+    },
+    {
+      "a": "BRA",
+      "b": "EGY",
+      "goals_a": 2,
+      "goals_b": 2,
+      "group": "C"
+    },
+    {
+      "a": "BRA",
+      "b": "JOR",
+      "goals_a": 4,
+      "goals_b": 0,
+      "group": "C"
+    },
+    {
+      "a": "SUI",
+      "b": "EGY",
+      "goals_a": 3,
+      "goals_b": 1,
+      "group": "C"
+    },
+    {
+      "a": "SUI",
+      "b": "JOR",
+      "goals_a": 3,
+      "goals_b": 0,
+      "group": "C"
+    },
+    {
+      "a": "EGY",
+      "b": "JOR",
+      "goals_a": 1,
+      "goals_b": 0,
+      "group": "C"
+    },
+    {
+      "a": "USA",
+      "b": "MAR",
+      "goals_a": 0,
+      "goals_b": 2,
+      "group": "D"
+    },
+    {
+      "a": "USA",
+      "b": "UZB",
+      "goals_a": 1,
+      "goals_b": 2,
+      "group": "D"
+    },
+    {
+      "a": "USA",
+      "b": "CZE",
+      "goals_a": 1,
+      "goals_b": 1,
+      "group": "D"
+    },
+    {
+      "a": "MAR",
+      "b": "UZB",
+      "goals_a": 4,
+      "goals_b": 1,
+      "group": "D"
+    },
+    {
+      "a": "MAR",
+      "b": "CZE",
+      "goals_a": 1,
+      "goals_b": 2,
+      "group": "D"
+    },
+    {
+      "a": "UZB",
+      "b": "CZE",
+      "goals_a": 3,
+      "goals_b": 2,
+      "group": "D"
+    },
+    {
+      "a": "GER",
+      "b": "COL",
+      "goals_a": 0,
+      "goals_b": 3,
+      "group": "E"
+    },
+    {
+      "a": "GER",
+      "b": "TUN",
+      "goals_a": 1,
+      "goals_b": 0,
+      "group": "E"
+    },
+    {
+      "a": "GER",
+      "b": "HAI",
+      "goals_a": 0,
+      "goals_b": 0,
+      "group": "E"
+    },
+    {
+      "a": "COL",
+      "b": "TUN",
+      "goals_a": 0,
+      "goals_b": 1,
+      "group": "E"
+    },
+    {
+      "a": "COL",
+      "b": "HAI",
+      "goals_a": 1,
+      "goals_b": 0,
+      "group": "E"
+    },
+    {
+      "a": "TUN",
+      "b": "HAI",
+      "goals_a": 3,
+      "goals_b": 4,
+      "group": "E"
+    },
+    {
+      "a": "POR",
+      "b": "URU",
+      "goals_a": 1,
+      "goals_b": 0,
+      "group": "F"
+    },
+    {
+      "a": "POR",
+      "b": "PAN",
+      "goals_a": 0,
+      "goals_b": 2,
+      "group": "F"
+    },
+    {
+      "a": "POR",
+      "b": "IRQ",
+      "goals_a": 3,
+      "goals_b": 0,
+      "group": "F"
+    },
+    {
+      "a": "URU",
+      "b": "PAN",
+      "goals_a": 2,
+      "goals_b": 0,
+      "group": "F"
+    },
+    {
+      "a": "URU",
+      "b": "IRQ",
+      "goals_a": 3,
+      "goals_b": 1,
+      "group": "F"
+    },
+    {
+      "a": "PAN",
+      "b": "IRQ",
+      "goals_a": 0,
+      "goals_b": 1,
+      "group": "F"
+    },
+    {
+      "a": "FRA",
+      "b": "JPN",
+      "goals_a": 5,
+      "goals_b": 0,
+      "group": "G"
+    },
+    {
+      "a": "FRA",
+      "b": "RSA",
+      "goals_a": 1,
+      "goals_b": 1,
+      "group": "G"
+    },
+    {
+      "a": "FRA",
+      "b": "SWE",
+      "goals_a": 2,
+      "goals_b": 0,
+      "group": "G"
+    },
+    {
+      "a": "JPN",
+      "b": "RSA",
+      "goals_a": 0,
+      "goals_b": 0,
+      "group": "G"
+    },
+    {
+      "a": "JPN",
+      "b": "SWE",
+      "goals_a": 4,
+      "goals_b": 1,
+      "group": "G"
+    },
+    {
+      "a": "RSA",
+      "b": "SWE",
+      "goals_a": 1,
+      "goals_b": 1,
+      "group": "G"
+    },
+    {
+      "a": "ENG",
+      "b": "AUT",
+      "goals_a": 0,
+      "goals_b": 0,
+      "group": "H"
+    },
+    {
+      "a": "ENG",
+      "b": "ALG",
+      "goals_a": 2,
+      "goals_b": 1,
+      "group": "H"
+    },
+    {
+      "a": "ENG",
+      "b": "CUW",
+      "goals_a": 3,
+      "goals_b": 0,
+      "group": "H"
+    },
+    {
+      "a": "AUT",
+      "b": "ALG",
+      "goals_a": 1,
+      "goals_b": 0,
+      "group": "H"
+    },
+    {
+      "a": "AUT",
+      "b": "CUW",
+      "goals_a": 2,
+      "goals_b": 0,
+      "group": "H"
+    },
+    {
+      "a": "ALG",
+      "b": "CUW",
+      "goals_a": 2,
+      "goals_b": 2,
+      "group": "H"
+    },
+    {
+      "a": "ESP",
+      "b": "ECU",
+      "goals_a": 2,
+      "goals_b": 1,
+      "group": "I"
+    },
+    {
+      "a": "ESP",
+      "b": "QAT",
+      "goals_a": 6,
+      "goals_b": 0,
+      "group": "I"
+    },
+    {
+      "a": "ESP",
+      "b": "CPV",
+      "goals_a": 1,
+      "goals_b": 3,
+      "group": "I"
+    },
+    {
+      "a": "ECU",
+      "b": "QAT",
+      "goals_a": 2,
+      "goals_b": 0,
+      "group": "I"
+    },
+    {
+      "a": "ECU",
+      "b": "CPV",
+      "goals_a": 2,
+      "goals_b": 4,
+      "group": "I"
+    },
+    {
+      "a": "QAT",
+      "b": "CPV",
+      "goals_a": 0,
+      "goals_b": 1,
+      "group": "I"
+    },
+    {
+      "a": "BEL",
+      "b": "SEN",
+      "goals_a": 1,
+      "goals_b": 1,
+      "group": "J"
+    },
+    {
+      "a": "BEL",
+      "b": "KSA",
+      "goals_a": 1,
+      "goals_b": 1,
+      "group": "J"
+    },
+    {
+      "a": "BEL",
+      "b": "TUR",
+      "goals_a": 2,
+      "goals_b": 0,
+      "group": "J"
+    },
+    {
+      "a": "SEN",
+      "b": "KSA",
+      "goals_a": 3,
+      "goals_b": 0,
+      "group": "J"
+    },
+    {
+      "a": "SEN",
+      "b": "TUR",
+      "goals_a": 2,
+      "goals_b": 0,
+      "group": "J"
+    },
+    {
+      "a": "KSA",
+      "b": "TUR",
+      "goals_a": 1,
+      "goals_b": 3,
+      "group": "J"
+    },
+    {
+      "a": "ARG",
+      "b": "CRO",
+      "goals_a": 0,
+      "goals_b": 1,
+      "group": "K"
+    },
+    {
+      "a": "ARG",
+      "b": "NOR",
+      "goals_a": 2,
+      "goals_b": 1,
+      "group": "K"
+    },
+    {
+      "a": "ARG",
+      "b": "GHA",
+      "goals_a": 2,
+      "goals_b": 0,
+      "group": "K"
+    },
+    {
+      "a": "CRO",
+      "b": "NOR",
+      "goals_a": 0,
+      "goals_b": 2,
+      "group": "K"
+    },
+    {
+      "a": "CRO",
+      "b": "GHA",
+      "goals_a": 2,
+      "goals_b": 0,
+      "group": "K"
+    },
+    {
+      "a": "NOR",
+      "b": "GHA",
+      "goals_a": 5,
+      "goals_b": 3,
+      "group": "K"
+    },
+    {
+      "a": "NED",
+      "b": "IRN",
+      "goals_a": 2,
+      "goals_b": 1,
+      "group": "L"
+    },
+    {
+      "a": "NED",
+      "b": "PAR",
+      "goals_a": 3,
+      "goals_b": 0,
+      "group": "L"
+    },
+    {
+      "a": "NED",
+      "b": "COD",
+      "goals_a": 2,
+      "goals_b": 1,
+      "group": "L"
+    },
+    {
+      "a": "IRN",
+      "b": "PAR",
+      "goals_a": 4,
+      "goals_b": 3,
+      "group": "L"
+    },
+    {
+      "a": "IRN",
+      "b": "COD",
+      "goals_a": 2,
+      "goals_b": 0,
+      "group": "L"
+    },
+    {
+      "a": "PAR",
+      "b": "COD",
+      "goals_a": 0,
+      "goals_b": 1,
+      "group": "L"
+    }
+  ],
+  "group_order": {
+    "A": [
+      "MEX",
+      "BIH",
+      "SCO",
+      "KOR"
+    ],
+    "B": [
+      "AUS",
+      "CIV",
+      "CAN",
+      "NZL"
+    ],
+    "C": [
+      "SUI",
+      "BRA",
+      "EGY",
+      "JOR"
+    ],
+    "D": [
+      "MAR",
+      "UZB",
+      "CZE",
+      "USA"
+    ],
+    "E": [
+      "COL",
+      "HAI",
+      "GER",
+      "TUN"
+    ],
+    "F": [
+      "URU",
+      "POR",
+      "PAN",
+      "IRQ"
+    ],
+    "G": [
+      "FRA",
+      "JPN",
+      "RSA",
+      "SWE"
+    ],
+    "H": [
+      "ENG",
+      "AUT",
+      "ALG",
+      "CUW"
+    ],
+    "I": [
+      "CPV",
+      "ESP",
+      "ECU",
+      "QAT"
+    ],
+    "J": [
+      "SEN",
+      "BEL",
+      "TUR",
+      "KSA"
+    ],
+    "K": [
+      "NOR",
+      "ARG",
+      "CRO",
+      "GHA"
+    ],
+    "L": [
+      "NED",
+      "IRN",
+      "COD",
+      "PAR"
+    ]
+  },
+  "best_thirds": [
+    "CRO",
+    "CZE",
+    "EGY",
+    "GER",
+    "RSA",
+    "ECU",
+    "PAN",
+    "TUR"
+  ],
+  "knockout": [
+    {
+      "round": "Round of 32",
+      "a": "BIH",
+      "b": "CIV",
+      "goals_a": 0,
+      "goals_b": 4,
+      "winner": "CIV",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Round of 32",
+      "a": "COL",
+      "b": "CZE",
+      "goals_a": 4,
+      "goals_b": 2,
+      "winner": "COL",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Round of 32",
+      "a": "URU",
+      "b": "BRA",
+      "goals_a": 1,
+      "goals_b": 3,
+      "winner": "BRA",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Round of 32",
+      "a": "SUI",
+      "b": "POR",
+      "goals_a": 2,
+      "goals_b": 1,
+      "winner": "SUI",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Round of 32",
+      "a": "CPV",
+      "b": "RSA",
+      "goals_a": 1,
+      "goals_b": 2,
+      "winner": "RSA",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Round of 32",
+      "a": "HAI",
+      "b": "ESP",
+      "goals_a": 0,
+      "goals_b": 3,
+      "winner": "ESP",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Round of 32",
+      "a": "MEX",
+      "b": "EGY",
+      "goals_a": 4,
+      "goals_b": 1,
+      "winner": "MEX",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Round of 32",
+      "a": "NED",
+      "b": "CRO",
+      "goals_a": 2,
+      "goals_b": 2,
+      "winner": "NED",
+      "decided_on": "penalties"
+    },
+    {
+      "round": "Round of 32",
+      "a": "MAR",
+      "b": "PAN",
+      "goals_a": 0,
+      "goals_b": 1,
+      "winner": "PAN",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Round of 32",
+      "a": "FRA",
+      "b": "ECU",
+      "goals_a": 5,
+      "goals_b": 1,
+      "winner": "FRA",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Round of 32",
+      "a": "ARG",
+      "b": "IRN",
+      "goals_a": 6,
+      "goals_b": 1,
+      "winner": "ARG",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Round of 32",
+      "a": "ENG",
+      "b": "BEL",
+      "goals_a": 3,
+      "goals_b": 0,
+      "winner": "ENG",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Round of 32",
+      "a": "AUS",
+      "b": "GER",
+      "goals_a": 1,
+      "goals_b": 3,
+      "winner": "GER",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Round of 32",
+      "a": "SEN",
+      "b": "AUT",
+      "goals_a": 1,
+      "goals_b": 1,
+      "winner": "SEN",
+      "decided_on": "penalties"
+    },
+    {
+      "round": "Round of 32",
+      "a": "NOR",
+      "b": "TUR",
+      "goals_a": 0,
+      "goals_b": 0,
+      "winner": "TUR",
+      "decided_on": "penalties"
+    },
+    {
+      "round": "Round of 32",
+      "a": "UZB",
+      "b": "JPN",
+      "goals_a": 1,
+      "goals_b": 2,
+      "winner": "JPN",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Round of 16",
+      "a": "COL",
+      "b": "RSA",
+      "goals_a": 2,
+      "goals_b": 0,
+      "winner": "COL",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Round of 16",
+      "a": "CIV",
+      "b": "BRA",
+      "goals_a": 1,
+      "goals_b": 2,
+      "winner": "BRA",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Round of 16",
+      "a": "SUI",
+      "b": "ESP",
+      "goals_a": 1,
+      "goals_b": 3,
+      "winner": "ESP",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Round of 16",
+      "a": "MEX",
+      "b": "NED",
+      "goals_a": 0,
+      "goals_b": 2,
+      "winner": "NED",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Round of 16",
+      "a": "ARG",
+      "b": "ENG",
+      "goals_a": 2,
+      "goals_b": 0,
+      "winner": "ARG",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Round of 16",
+      "a": "PAN",
+      "b": "FRA",
+      "goals_a": 1,
+      "goals_b": 3,
+      "winner": "FRA",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Round of 16",
+      "a": "SEN",
+      "b": "JPN",
+      "goals_a": 0,
+      "goals_b": 2,
+      "winner": "JPN",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Round of 16",
+      "a": "GER",
+      "b": "TUR",
+      "goals_a": 5,
+      "goals_b": 2,
+      "winner": "GER",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Quarter-final",
+      "a": "COL",
+      "b": "BRA",
+      "goals_a": 4,
+      "goals_b": 1,
+      "winner": "COL",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Quarter-final",
+      "a": "ARG",
+      "b": "FRA",
+      "goals_a": 3,
+      "goals_b": 1,
+      "winner": "ARG",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Quarter-final",
+      "a": "ESP",
+      "b": "NED",
+      "goals_a": 3,
+      "goals_b": 1,
+      "winner": "ESP",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Quarter-final",
+      "a": "JPN",
+      "b": "GER",
+      "goals_a": 2,
+      "goals_b": 1,
+      "winner": "JPN",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Semi-final",
+      "a": "COL",
+      "b": "ARG",
+      "goals_a": 1,
+      "goals_b": 1,
+      "winner": "COL",
+      "decided_on": "penalties"
+    },
+    {
+      "round": "Semi-final",
+      "a": "ESP",
+      "b": "JPN",
+      "goals_a": 1,
+      "goals_b": 2,
+      "winner": "JPN",
+      "decided_on": "regulation"
+    },
+    {
+      "round": "Third-place play-off",
+      "a": "ARG",
+      "b": "ESP",
+      "goals_a": 1,
+      "goals_b": 1,
+      "winner": "ARG",
+      "decided_on": "penalties"
+    },
+    {
+      "round": "Final",
+      "a": "COL",
+      "b": "JPN",
+      "goals_a": 1,
+      "goals_b": 0,
+      "winner": "COL",
+      "decided_on": "regulation"
+    }
+  ],
+  "podium": {
+    "champion": "COL",
+    "runner_up": "JPN",
+    "third_place": "ARG",
+    "fourth_place": "ESP"
+  }
+}
